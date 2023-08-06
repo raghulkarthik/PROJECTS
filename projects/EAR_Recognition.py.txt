@@ -109,7 +109,7 @@ def main():
         # if the `q` key was pressed, break from the loop
         if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
-    # do a bit of cleanup
+    # do a bit of cleanup            
     video_capture.release()
     cv2.destroyAllWindows()
 
